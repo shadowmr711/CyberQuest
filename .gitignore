@@ -1,0 +1,31 @@
+# Python & Virtual Environments
+venv/
+env/
+ENV/
+*.py[cod]
+*$py.class
+__pycache__/
+
+# Testing & Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local Environment Variables & Secrets
+.env
+!.env.example
+
+# Local SQLite Database & Logs
+database/*.db
+database/*.sqlite3
+!database/.gitkeep
+*.log
+
+# IDE & OS Specific
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Archives
+*.zip
